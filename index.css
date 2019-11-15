@@ -1,0 +1,14 @@
+header{
+	color: white;
+	background-color: black;
+}
+header li{
+ 	display: inline-block;
+}
+nav {
+	color: white;
+	background-color: #4682B4;
+}
+nav li{
+	display: inline-block;
+}
