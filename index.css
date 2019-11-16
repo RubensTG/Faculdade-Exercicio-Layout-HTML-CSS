@@ -1,14 +1,92 @@
-header{
-	color: white;
+body{
+	background-color: #ccc;
+}
+header{/*Fundo preto*/
+
 	background-color: black;
+	margin-left: -0.6%;
+	margin-right: -0.6%;
+	margin-top: -4vh;
+	margin-bottom: -8%;
 }
-header li{
- 	display: inline-block;
-}
-nav {
-	color: white;
-	background-color: #4682B4;
-}
-nav li{
+header li{/*Uol Bol Globo Yahoo*/
+	color: #B0E0E6;
 	display: inline-block;
+	margin-left: 1%;
+	transform: translate(50%, 80%);
+}
+header h3 p{/*10 de novembro de 2019*/
+	color: #DCDCDC;
+	transform: translateY(-60%);
+	margin-left: 50%;
+}
+nav{/*Fundo azul*/
+	background-color: #000080;
+	margin-left: -0.6%;
+	margin-right: -0.6%;
+	margin-top: 8.5%;
+}
+nav a{/*Home Troféus História Conselho*/
+	color: #DCDCDC;
+	text-decoration-line: none;  
+	display: inline-block;
+	margin-left: 2.5%;
+	margin-bottom: -1.5%;
+	margin-top: -1.5%;
+	padding-bottom: 1%;
+	padding-top: 1%;
+}
+main h2{/*O Time*/
+	color: #87CEEB;
+	font-size: 300%;
+	text-align: center;
+	transform: translateY(-30%);
+	//transform: translate(0%, -10%);
+}
+main div p{
+	color: black;
+	font-family: "Arial";
+	font-size: 80%;
+}
+main{/* Texto*/
+	float: left;
+	margin-top: 0.6%;
+	background-color: #DCDCDC;
+	border-color: white;
+	border-top-style: ridge;
+	border-bottom-style: groove;
+	border-right-style: groove;
+	border-left-style: ridge;
+	padding-bottom: 20%;
+	margin-left: -1%;
+	border-width: 60px;
+}
+aside{/*Fundo*/ 
+	float: right;
+	background-color: #00008B;
+	height: 600px;
+	margin-top: 0.6%;
+	padding-left: 27.5%;
+	margin-right: -0.6%;
+
+
+}
+aside li{
+	color: white;
+ 	position: relative;
+ 	right: 620%;
+}
+footer{
+	background-color: black;
+	height: 64.4px;
+	position: relative;
+	margin-top: 44%;
+	margin-right: -0.6%;
+	margin-left: -0.6%;
+}
+footer p{
+	font-size: 130%;
+	color: white;
+	position: absolute;
+
 }
