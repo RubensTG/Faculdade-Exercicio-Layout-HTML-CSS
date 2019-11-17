@@ -1,92 +1,82 @@
 body{
-	background-color: #ccc;
+	background-color: #696969;
 }
 header{/*Fundo preto*/
-
 	background-color: black;
-	margin-left: -0.6%;
-	margin-right: -0.6%;
-	margin-top: -4vh;
-	margin-bottom: -8%;
+	margin: -16px -8px 0px -8px;
+	max-height: 50px;
 }
 header li{/*Uol Bol Globo Yahoo*/
 	color: #B0E0E6;
+	padding-left: 15px;
 	display: inline-block;
-	margin-left: 1%;
-	transform: translate(50%, 80%);
 }
 header h3 p{/*10 de novembro de 2019*/
-	color: #DCDCDC;
-	transform: translateY(-60%);
-	margin-left: 50%;
+	color: #ddd;
+	letter-spacing: 0.425px;
+	position: relative;
+	bottom: 58px;
+	margin-left: 600px;
 }
 nav{/*Fundo azul*/
+	position: relative;
 	background-color: #000080;
-	margin-left: -0.6%;
-	margin-right: -0.6%;
-	margin-top: 8.5%;
+	margin: 4px -8px 0px -8px;
 }
 nav a{/*Home Troféus História Conselho*/
 	color: #DCDCDC;
 	text-decoration-line: none;  
 	display: inline-block;
-	margin-left: 2.5%;
-	margin-bottom: -1.5%;
-	margin-top: -1.5%;
-	padding-bottom: 1%;
-	padding-top: 1%;
+	position: relative;
+	margin-left: 70px;
 }
 main h2{/*O Time*/
 	color: #87CEEB;
 	font-size: 300%;
 	text-align: center;
-	transform: translateY(-30%);
-	//transform: translate(0%, -10%);
 }
 main div p{
 	color: black;
-	font-family: "Arial";
-	font-size: 80%;
+	font-family: Arial Narrow;
+	font-size: 20px;
+	padding: 0px 80px 0px 80px;
 }
 main{/* Texto*/
+	width: 60%;
+	height: 800px;
 	float: left;
-	margin-top: 0.6%;
-	background-color: #DCDCDC;
+	text-align: center;
+	margin-top: 0.5%;
+	background-color: #E8E8E8;
 	border-color: white;
 	border-top-style: ridge;
 	border-bottom-style: groove;
 	border-right-style: groove;
 	border-left-style: ridge;
-	padding-bottom: 20%;
-	margin-left: -1%;
-	border-width: 60px;
+	margin-left: -8px;
+	border-width: 25px 60px 25px 40px;
 }
 aside{/*Fundo*/ 
-	float: right;
 	background-color: #00008B;
-	height: 600px;
-	margin-top: 0.6%;
-	padding-left: 27.5%;
-	margin-right: -0.6%;
-
-
+	margin: -10px -8px 0px 67%;
+	height: 850px;
 }
-aside li{
+aside ul{
 	color: white;
- 	position: relative;
- 	right: 620%;
+	position: relative;
+	top: 15px;
+	
+
 }
 footer{
 	background-color: black;
-	height: 64.4px;
-	position: relative;
-	margin-top: 44%;
-	margin-right: -0.6%;
-	margin-left: -0.6%;
+	height: 60px;
+	position: absolute;
+	margin-left: -8px;
+	width: 100%;
 }
-footer p{
+footer p{/*Feed*/
+	margin-left: 20px;
 	font-size: 130%;
 	color: white;
-	position: absolute;
-
 }
